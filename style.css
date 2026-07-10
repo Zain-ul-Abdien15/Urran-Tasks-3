@@ -11,7 +11,6 @@ body {
 
 .page {
   position: relative;
-  width: 1000px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -20,6 +19,8 @@ body {
 
 .submission-page {
   background: #ffffff;
+  margin-right: 0px;
+  margin-left: 30px;
 }
 
 .top-bar {
@@ -31,7 +32,8 @@ body {
 }
 
 .logo {
-  width: 90px;
+  width: 100px;
+  margin-left: -53px;
 }
 
 .nav-link {
@@ -56,7 +58,9 @@ body {
 
 .submission-left {
   margin-top: 200px;
-  width: 380px;
+  padding-right: 150px;
+  padding-left: 70px;
+  font-size: large;
 }
 
 .submission-left h1 {
@@ -206,6 +210,7 @@ body {
 .report-header .logo {
   width: 120px;
   margin-bottom: 20px;
+  margin-left: 5px;
 }
 
 .report-header h1 {
